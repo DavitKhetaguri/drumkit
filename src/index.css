@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fdfdca;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#drum-machine{
+  display: flex;
+  flex-direction: row;
+  
+  align-items: center;
+  
+  width: 40vw;
+  height: 42vh;
+  background-color:#68CAFC;
+  margin: 30vh 30vw;
+  border-radius: 10px;
+}
+#pads{
+  width: 30vw;
+  height: 42vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  
+  
+    grid-template-rows:  14vh 14vh 14vh;
+    grid-template-columns: 10vw 10vw 10vw;
+ 
+  background-color: #FFE378;
+  border-radius: 6px;
+  
+}
+#display{
+  width: 8vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFE378;
+  border-radius: 6px;
+  margin-left: 1vw;
+  
+}
+
+
+
+.drum-pad{
+  display: flex;
+  background-color: #FA96A5;
+  margin-top: 3vh;
+  margin-left: 2vw;
+  width: 6vw;
+  height: 8vh;
+  font-weight: bold;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  
+  
+}
+.act{
+  transform: scale(1.4);
+}    
